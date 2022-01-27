@@ -4,7 +4,8 @@ output:
   pdf_document: default
   html_document: default
 ---
-#Análisis con data covid
+# DATA DISTRIBUIDORAS
+##Análisis con data covid
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(writexl)
@@ -14,6 +15,7 @@ library(tidyr)
 library(lubridate)
 library(ggplot2)
 library(fpp2)
+library(readxl)
 # 
 # install.packages("archive")
 # install.packages("DataExplorer")
@@ -39,10 +41,16 @@ data5<-data5 %>% mutate(subtotal=subtotal/1000)
 data5<-ts(data5,start = c(2020,1),end = c(2021,12),frequency = 12)
 ```
 
-```{r cars}
+```{r seasonal2020-2021, echo=FALSE}
 autoplot(data5)
 ggseasonplot(data5)
 ggsubseriesplot(data5)
 ```
 
-#Análisis sin data covid
+##Análisis sin data covid
+
+# Análisis data Lansier 2012 - 2021
+```{r echo=FALSE}
+datalansier<-read_xlsx("historico2012_2021.xlsx")
+ ```
+

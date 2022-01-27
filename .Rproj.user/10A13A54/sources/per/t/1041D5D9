@@ -3,9 +3,9 @@
     "path": "C:/Users/LBarrios/Desktop/practicingts.R",
     "project_path": null,
     "type": "r_source",
-    "hash": "0",
+    "hash": "3418937399",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1641572719604.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1641269050,
+    "lastKnownWriteTime": 1643311471,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1641591518441,
+    "last_content_update": 1643311471327,
     "read_only": false,
     "read_only_alternatives": []
 }
